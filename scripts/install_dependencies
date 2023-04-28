@@ -1,6 +1,2 @@
 #!/bin/bash
-
-#download node and npm
-
-
-#create our working directory if it doesnt exist
+sudo yum install -y ruby
