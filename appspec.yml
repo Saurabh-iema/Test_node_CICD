@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /.
-    destination: /home/bitnami/htdocs
+    destination: /home/ec2-user/Test_node_CICD
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies

@@ -1,6 +1,4 @@
 #!/bin/bash
-isExistApp = `pgrep apache`
-if [[ -n  $isExistApp ]]; then
-    sudo /opt/bitnami/ctlscript.sh stop apache        
-fi
-
+#Stopping existing node servers
+echo "Stopping any existing node servers"
+pkill -f node
