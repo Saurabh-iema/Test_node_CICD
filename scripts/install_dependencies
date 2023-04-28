@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo npm i
+sudo yum install -y ruby
